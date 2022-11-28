@@ -1,6 +1,2 @@
-const getTheTitles = function() {
-
-};
-
-// Do not edit below this line
-module.exports = getTheTitles;
+const getTheTitles = array => array.map(book => book.title);
+  module.exports = getTheTitles;
